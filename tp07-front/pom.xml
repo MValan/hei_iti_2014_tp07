@@ -8,8 +8,13 @@
 	</parent>
 	<artifactId>tp07-front</artifactId>
 	<packaging>war</packaging>
-
-
-	
+	<dependencies>
+		<dependency>
+			<groupId>javax.websocket</groupId>
+			<artifactId>javax.websocket-api</artifactId>
+			<version>1.0</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
 
 </project>
